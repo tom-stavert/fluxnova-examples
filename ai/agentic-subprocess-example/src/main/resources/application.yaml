@@ -10,9 +10,6 @@ spring:
   ai:
     openai:
       api-key: ${OPENAI_API_KEY}
-      chat:
-        options:
-            model: gpt-5.4
 logging:
   level:
     org.finos.fluxnova.bpm.engine.ai.agent: DEBUG
