@@ -65,35 +65,16 @@
     </dependency>
     <!-- Agentic subprocess plugin -->
     <dependency>
-      <groupId>org.finos.fluxnova.bpm</groupId>
-      <artifactId>fluxnova-engine-plugins-ai-agent-config</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>org.finos.fluxnova.bpm</groupId>
-      <artifactId>fluxnova-engine-plugins-ai-agent-tool-context-discovery</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>org.finos.fluxnova.bpm</groupId>
-      <artifactId>fluxnova-engine-plugins-ai-agent-llm-connector</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>org.finos.fluxnova.bpm</groupId>
-      <artifactId>fluxnova-engine-plugins-ai-agentic-tool-invocation</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>org.finos.fluxnova.bpm</groupId>
-      <artifactId>fluxnova-engine-plugins-ai-agent-orchestrator</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+        <groupId>org.finos.fluxnova.bpm</groupId>
+        <artifactId>fluxnova-engine-plugins-ai-agentic-subprocess</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <type>pom</type>
     </dependency>
 
     <dependency>
       <groupId>org.springframework.ai</groupId>
       <artifactId>spring-ai-starter-model-openai</artifactId>
-      <version>1.0.0</version>
+      <version>1.1.6</version>
     </dependency>
 
   </dependencies>
